@@ -1,0 +1,63 @@
+.div-child-element-left {
+    background-image: url(../images/Rectangle10.png);
+    height: 320px;
+    max-width: 565px;
+    width: 100%;
+    margin-left: 125px;
+}
+.section-bg {
+    background-color: #0B0A0A;
+}
+.title-section {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+}
+.div-child-element-right {
+    max-width: 565px;
+    width: 100%;
+    height: 320px;
+    background-color: #8E8B8B;
+    margin-left: 60px;
+}
+.div-parent-element {
+    display: flex;
+}
+
+
+.footer-bg {
+    background-color: #2A2626;
+}
+.footer-parent {
+    max-width: 1190px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 834px) {
+    .logo {
+        display: none;
+    }
+    .footer-parent {
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width:480px) {
+    .div-parent-element {
+        flex-direction: column;
+    }
+    .div-child-element-left {
+        margin-left: 0;
+    }
+    .div-child-element-right {
+        margin-left: 0;
+    }
+}
